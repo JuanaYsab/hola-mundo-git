@@ -4,8 +4,5 @@ console.log("Hola " + nombre);
 console.log(nombre + " tiene "+ edad + " años");
 
 function calcularEdad(anioNac){
-    const fechaActual = new Date();
-    const anioActual = fechaActual.getFullYear();
-    const edad = anioActual - anioNac;
-    return edad;
+    return new Date().getFullYear() - anioNac;
 }
