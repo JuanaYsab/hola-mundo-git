@@ -10,4 +10,4 @@ function calcularEdad(anioNac){
 
 function calcularSalario(horasTrabajadas, montoPorHora){
     return horasTrabajadas * montoPorHora;
-}
+} 
